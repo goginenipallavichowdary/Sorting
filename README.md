@@ -2,6 +2,7 @@ Selection Sort:
 In the selection sort it list array by selecting smallest element in unsorted portion of arrary and exchanging it with element at the begining of the unsorted list.In Selection Sort it is a basic sorting algorithm that relies on comparisons. It functions by repeatedly choosing the smallest (or largest, based on the order of sorting) element from the list's unsorted section and shifting it to the start (or finish) of the sorted section.
 
 1.Initialization: The subarray array[0...-1] is empty prior to the first iteration (i = 0), which can be easily sorted.
+
 2.Maintenance: Assume that for the first i iterations, the loop invariant holds true. In the iteration that is i:
 
 The unsorted segment array[i..n-1] minimal element is found via the algorithm.
